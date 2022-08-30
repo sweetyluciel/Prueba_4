@@ -1,0 +1,16 @@
+* {
+    margin: 0%;  
+}
+.nav-title {
+    background-image: url(img/banner.jpg);
+    width: 1920px;
+    height: 600px;
+}
+.nav-links {
+    background-color: rgba(240, 248, 255, 0.164);
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    align-items: initial;
+    justify-content: space-evenly;
+}
