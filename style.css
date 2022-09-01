@@ -1,16 +1,67 @@
 * {
     margin: 0%;  
+    padding: 0%;
 }
 .nav-title {
     background-image: url(img/banner.jpg);
-    width: 1920px;
-    height: 600px;
+    height: 580px;
+    justify-content: center;
 }
 .nav-links {
-    background-color: rgba(240, 248, 255, 0.164);
+    background-color: rgba(0, 0, 0, 0.432);
     list-style: none;
     display: flex;
     font-size: 20px;
-    align-items: initial;
     justify-content: space-evenly;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+.text {
+    color: white;
+    font-family: sans-serif;
+    margin: 100px;
+    padding: 280px;
+}
+.buttoms {
+    display: flex;
+    list-style: none;
+}
+.text p{
+    padding: 5px;
+    font-size: small;
+}
+.text h1 {
+    padding: 2px;
+}
+button {
+    background: rgb(30, 115, 172);
+	width: 180px;
+	height: 37px;
+    font-family:sans-serif;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-color: rgb(30, 115, 172);
+    margin: 5px ;
+}
+.imagen {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color:rgb(30, 115, 172);
+    font-family: sans-serif;
+    display: flex;
+}
+.mcc {
+    margin-right: 30px;
+    margin-left: 30px; 
+}
+.inside,.mcc,.xbox{
+    width: 300px;
+    height: 170px;
 }
